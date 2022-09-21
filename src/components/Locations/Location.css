@@ -1,3 +1,45 @@
 .--location-location-container{
-    background-color:green;
+    display:flex;
+    max-width:850px;
+    margin:0 auto;
+    padding:12px 0px;
+    border-bottom:2px solid #F5F5F5;
+}
+
+.--location-img{
+    width:126px;
+    height:168px;
+    border-radius:5px;
+    margin-right:19px;
+}
+
+.--location-bi-geo-alt-fill{
+    color:#F55A5A;
+}
+
+.--location-location{
+    font-size: 10.24px;
+    color:#2B283A;
+    margin-right:12px;
+}
+
+.--location-mapLink{
+    font-size:10.24px;
+    color:#918E9B;
+}
+
+.--location-title{
+    font-size:25px;
+    font-weight:bold;
+    color:#2B283A;
+}
+
+.--location-date{
+    font-size:10.24px;
+    color:#2B283A;
+    font-weight:bold;
+}
+
+.--location-description{
+    font-size:10.24px;
 }

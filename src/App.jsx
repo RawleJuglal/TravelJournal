@@ -5,10 +5,9 @@ import Location from './components/Locations/Location'
 import Data from './data'
 
 function App() {
-  console.log(Data)
   let Locs = Data.map((i)=>{
     return <Location
-              key={i.key}
+              key={i.id}
               {...i}
             />
   })
