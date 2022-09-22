@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css';
-import Logo from '/public/images/TravelLogo.png'
+import Logo from '/src/images/TravelLogo.png'
 
 export default function Navbar(){
     return(
